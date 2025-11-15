@@ -8,7 +8,7 @@ function Navbar() {
   return (
     <header>
       <div className="logo">
-        <img src="public/Logo/Elos-Studios-Logo.png" alt="Logo" />
+        <img src=".../assets/Elos-Studios-Logo.png" alt="Logo" />
         <h1>Elos.Studios</h1>
       </div>
       <button
