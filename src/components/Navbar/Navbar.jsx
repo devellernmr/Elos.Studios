@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FaHome, FaUser, FaFolderOpen, FaEnvelope } from "react-icons/fa";
 import "./navbar.scss";
+import logo from '../../assets/Elos-Studios-Logo.png';
 
 function Navbar() {
   const [open, setOpen] = useState(false);
@@ -8,7 +9,7 @@ function Navbar() {
   return (
     <header>
       <div className="logo">
-        <img src=".../assets/Elos-Studios-Logo.png" alt="Logo" />
+        <img src={logo} alt="Logo" />
         <h1>Elos.Studios</h1>
       </div>
       <button
