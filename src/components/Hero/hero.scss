@@ -1,0 +1,6 @@
+.hero-bg {
+  background: radial-gradient(circle at 25% 40%, #ffd70033, transparent 70%),
+    radial-gradient(circle at 80% 70%, #ffd70011, transparent 60%), #181818;
+  /* brilho extra, sobrepondo tailwind */
+  box-shadow: 0 8px 32px 0 #ffeb3b22, 0 -2px 12px 0 #fff7b2;
+}
